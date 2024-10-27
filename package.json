@@ -1,0 +1,21 @@
+{
+  "name": "express-typescript-api",
+  "version": "1.0.0",
+  "description": "Express and TypeScript example starter project",
+  "keywords": ["typescript", "express", "starter"],
+  "main": "src/app.ts",
+  "dependencies": {
+    "express": "4.21.1",
+    "@types/express": "5.0.0",
+    "@types/jest": "29.5.14",
+    "@types/supertest": "6.0.2",
+    "loader-utils": "3.2.1"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  },
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "test": "jest"
+  }
+}
